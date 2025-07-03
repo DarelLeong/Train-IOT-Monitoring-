@@ -96,9 +96,9 @@ Copy appsettings.Development.json.template → appsettings.Development.json and 
 <details>
   <summary>Alert Management</summary>
 
-  ![Manage Alerts – Bay Rules](docs/img/manage-alerts-bay.png)
-  ![Manage Alerts – Capacity Rules](docs/img/manage-alerts-capacity.png)
-  ![Alert History](docs/img/Alert-History.png)
+  ![Manage Alerts – Bay Rules](Alert Management.png)
+  ![Manage Alerts – Capacity Rules](edit_alert.png)
+  ![Alert History](Alert History.png)
   
 
 </details>
