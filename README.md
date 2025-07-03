@@ -88,17 +88,17 @@ Copy appsettings.Development.json.template → appsettings.Development.json and 
 <details>
   <summary>Live Dashboards</summary>
 
-  ![Depot Energy Monitoring](docs/img/depot-energy-monitoring.png)
-  ![Load Monitoring](docs/img/load-monitoring.png)
+  ![Depot Energy Monitoring](depot_energy_monitoring.png)
+  ![Load Monitoring](Train_load_monitoring.png)
 
 </details>
 
 <details>
   <summary>Alert Management</summary>
 
-  ![Manage Alerts – Bay Rules](Alert Management.png)
+  ![Manage Alerts – Bay Rules](Alert_Management.png)
   ![Manage Alerts – Capacity Rules](edit_alert.png)
-  ![Alert History](Alert History.png)
+  ![Alert History](Alert_History.png)
   
 
 </details>
