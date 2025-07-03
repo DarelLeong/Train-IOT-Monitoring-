@@ -54,3 +54,49 @@ A sample ASP.NET Core 9.0 web app that demonstrates end-to-end IoT data ingestio
    git clone https://github.com/your-username/Train-IoT-Monitoring.git
    cd Train-IoT-Monitoring
    dotnet restore
+2. **Configure**
+Copy appsettings.Development.json.template → appsettings.Development.json and fill in:
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=.;Database=TrainIoT;Trusted_Connection=True;"
+  },
+  "IoT": {
+    "EventHubConnectionString": "<YOUR_EVENT_HUB_CONN>"
+  },
+  "AlertEmail": {
+    "From": "you@domain.com",
+    "SmtpHost": "smtp.gmail.com",
+    "SmtpPort": "587",
+    "Username": "you@domain.com",
+    "Password": "<your-smtp-pass>",
+    "UseSsl": "true"
+  }
+}
+3. Apply database migrations
+  bash
+  Copy
+  Edit
+  dotnet ef database update
+4. Run the application
+    bash
+    Copy
+    Edit
+    dotnet run
+    Navigate to https://localhost:5001.
+   
+## 🖼 Screenshots
+<details>
+  <summary>Live Dashboards</summary>
+
+  ![Depot Energy Monitoring](docs/img/depot-energy-monitoring.png)
+  ![Load Monitoring](docs/img/load-monitoring.png)
+
+</details>
+
+<details>
+  <summary>Alert Management</summary>
+
+  ![Manage Alerts – Bay Rules](docs/img/manage-alerts-bay.png)
+  ![Manage Alerts – Capacity Rules](docs/img/manage-alerts-capacity.png)
+
+</details>
