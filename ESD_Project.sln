@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESD_Project", "ESD_Project\ESD_Project.csproj", "{8E541774-355A-472D-889E-4F3B525240A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SImulatedDevice", "SImulatedDevice\SImulatedDevice.csproj", "{1CF26401-E9A4-439B-96F2-901FC478F9A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E541774-355A-472D-889E-4F3B525240A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E541774-355A-472D-889E-4F3B525240A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E541774-355A-472D-889E-4F3B525240A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E541774-355A-472D-889E-4F3B525240A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CF26401-E9A4-439B-96F2-901FC478F9A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CF26401-E9A4-439B-96F2-901FC478F9A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CF26401-E9A4-439B-96F2-901FC478F9A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CF26401-E9A4-439B-96F2-901FC478F9A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A832124-0F6D-4BBF-B40B-F2F1DF46EDAC}
+	EndGlobalSection
+EndGlobal
