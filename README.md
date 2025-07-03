@@ -74,13 +74,9 @@ Copy appsettings.Development.json.template → appsettings.Development.json and 
 }
 3. Apply database migrations
   bash
-  Copy
-  Edit
   dotnet ef database update
 4. Run the application
     bash
-    Copy
-    Edit
     dotnet run
     Navigate to https://localhost:5001.
    
